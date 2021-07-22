@@ -1,0 +1,8 @@
+#include "wifiFuncs.h"
+
+void initWifiStation() {
+
+  s_wifi_event_group = xEventGroupCreate();
+
+  return;
+}
